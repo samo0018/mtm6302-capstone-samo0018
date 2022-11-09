@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/elr0jdb.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Astronomy Photo of the Day</title>
+    <title>samo0018 - Astronomy Photo of the Day</title>
 </head>
 
 <body>
-    <h1> Test </h1>
+    <header class="header-container"> 
+        <img class="logo" src="nasalogo.png" alt="nasa logo">
+        <h1> Astronomy Photo of the Day </h1>
+        <img class="logo2" src="nasalogo.png" alt="nasa logo">
+    </header>
+
+    <div class="search-container">
+        
+        
+
+        <div class ="search-bar">
+
+            <h5> Enter a date to see the associated Astronomy Photo of the Day.</h5>
+
+            <form>
+
+                <div class="icon-search"> 
+                    <i class="fa fa-calendar icon" style="position: relative; left: 30px"></i>
+                    <input type="text" placeholder="MM/DD/YY" min="1990-01-01" max="2022-01-01" required>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+
+            </form>   
+        </div>
+
+    </div>
+
+    <div class="main-photo">
+
+        <h4> January 15th 2015 </h4>
+        <button class="fav-button"><i class="fa fa-heart-o" style="color:white; position: relative; top: -290px; left: 35px;"></i></button>
+        <img class="photo" src="cosmos.jpg" alt="the stars in outer space">
+        <p class="desc-text"><strong> Astronomer's Explanation: </strong> The Great Nebula in Orion is an intriguing place. Visible to the unaided eye, it appears as a small fuzzy patch in the constellation of Orion. But this image, an illusory-color four-panel mosaic taken in different bands of infrared light with the Earth orbiting WISE observatory, shows the Orion Nebula to be a bustling neighborhood of recently formed stars, hot gas, and dark dust. The power behind much of the Orion Nebula (M42) is the stars of the Trapezium star cluster, seen near the center of the above wide field image. The orange glow surrounding the bright stars pictured here is their own starlight reflected by intricate dust filaments that cover much of the region. The current Orion Nebula cloud complex, which includes the Horsehead Nebula, will slowly disperse over the next 100,000 years. </p>
+    
+    </div>
+
+    <footer>
+        <p> Image: &copy; NASA 2022 </p>
+    </footer>
+
 </body>
 
 </html>

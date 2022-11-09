@@ -1,3 +1,118 @@
-body {
-    background-color: red;
+html, body {
+    background-color: rgb(52, 50, 65);
+    margin: 0;
+    height: 100%;
 }
+
+.logo, .logo2 {
+    width: 200px;
+    height: 100px;
+}
+
+.logo2 {
+    visibility: hidden;
+}
+
+.header-container {
+    background-color: rgb(34, 32, 45);
+    padding-bottom: 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: expressway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h5, p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.search-container {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.search-bar {
+    text-align: center;
+}
+
+input {
+    border-radius: 6px;
+    height: 20px;
+    max-width: 120px;
+}
+
+::placeholder {
+    padding: 35px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2px;
+    height: 21px;
+}
+
+.main-photo {
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: darker;
+}
+
+.desc-text {
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.fav-button {
+    background-color: transparent;
+}
+footer {
+    background-color: rgb(34, 32, 45);
+    text-align: center;
+    padding: 1px;
+}
+
+@media screen and (max-width: 598px) {
+    body {
+      background-color: blue;
+    }
+
+    .logo, .logo2 {
+        width: 180px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .desc-text {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+  }
